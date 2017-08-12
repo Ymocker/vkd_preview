@@ -1,0 +1,112 @@
+/*
+    Created on : Jul 18, 2016, 8:06:18 PM
+    Author     : VVV
+*/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 800px;
+    font-family: Tahoma, Geneva, Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper {
+    min-height: calc(100% - 46px);
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.header {
+    background-color: #538db0;
+    height: 28px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#sidemenu {
+    width: 250px; /* Menu width */
+    float: left;
+    min-height: 100%;
+    background-color: #204d74;
+    padding-left: 15px;
+    /*color: white;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#sidemenu a {
+    color: #3db9ec;
+}
+#sidemenu a:hover {
+    color: #204d74;
+}
+#sidemenu .dropdown-menu {
+    background-color: #204d74;
+}
+#sidemenu h4 {
+    color: white;
+}
+#sidemenu .selected {
+    background-color: #216a94;
+}
+
+.status {
+    border-bottom: green thick solid;
+}
+
+.cont {
+    margin-left: 260px;
+    min-height: 100%;
+    padding: 20px;
+}
+
+/*#push {
+    height: 18px;
+    clear: both;
+}*/
+
+.footer {
+    height:18px;
+    background-color: #000080;
+    font-size:12px;
+    text-align:center;
+    color:white;
+    bottom:0;
+    clear: both;
+}
+
+/* =================================================================*/
+
+.rek-thumb {
+    display: inline-block;
+    width: 210px;
+    height: 400px;
+    border-color: #269abc;
+    border-style: dashed;
+    border-width: 1px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+
+}
+.thmb-img {
+    width: 200px;
+    height: 210px;
+    background-color: #EEE;
+
+}
+
+.thmb-info {
+    padding: 20px 10px;
+    text-align: left;
+}
+
+.btn-group {
+    /*position: absolute;*/
+    left: 0;
+    right: 0;
+}
